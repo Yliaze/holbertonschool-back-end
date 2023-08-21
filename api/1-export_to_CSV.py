@@ -53,5 +53,4 @@ for task in todos_data:
 csv_filename = f"{employee_id}.csv"
 with open(csv_filename, "w", newline='') as csv_file:
     csv_writer = csv.writer(csv_file, quoting=csv.QUOTE_ALL)
-    csv_writer.writerow(csv_row)
     csv_writer.writerows(csv_data)
