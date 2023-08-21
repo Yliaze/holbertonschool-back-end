@@ -46,4 +46,4 @@ is done with tasks({completed_tasks}/{total_tasks}):")
 """Print titles of completed tasks"""
 for task in todos_data:
     if task['completed']:
-        print(f"\t{task['title']}")
+        print(f"\t {task['title']}")
